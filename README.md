@@ -12,14 +12,14 @@ Just look in the /images folder in this repo (p4wnsolo/gamepi20).
 
 Or see the bottom of this page.
 
-<h2>Tips for Building GamePi20</h2>
+## Tips for Building GamePi20
 <ol>
  	<li>Most importantly, make sure you get the display working BEFORE you put the unit into the case.  Why?  Once everything's assembled, it takes just as long to disassemble it and get the display working.  Trust me - get the display working before you put the unit into the case</li>
  	<li>Put high heat electrical tape on the back of Raspberry Pi - where the 20 GPIO pins are soldered (explained below)</li>
  	<li>I had to replace the metal stand-offs given in this kit - if you have trouble booting GamePi while inside its own metal case, this is likely the issue (explained below).  Solve this issue with $2 in screws and a trip to the hardware store.</li>
 </ol>
 &nbsp;
-<h2>How to Build GamePi20</h2>
+## How to Build GamePi20
 Important:  The 4 "stock" metal stand-offs provided in this kit seem to cause some short/grounding issue, so I <em>had</em> to replace these standoffs with four M2.5x10mm panhead screws (available at a hardware store like ACE in the "mini screws" / computer screws section).  
 <br />
 <br />
@@ -49,7 +49,8 @@ So here's what that screen looks like (before you get to it in Step 1 below):
 The screenshot above shows the RetroPie disk image you need to download for this tutorial (highlighted in yellow).
 <br />
 <br />
-Follow the steps below:
+## How to Build GamePi20 (Step-by-step)
+Follow these steps to build GamePi20 with RetroPie:
 <br />
 <ol>
  	<li>Start by flashing the RetroPie v4.4 SD Card Image File found here (see screenshot above):  <a href="https://www.waveshare.com/wiki/GamePi20">https://www.waveshare.com/wiki/GamePi20</a>
