@@ -147,3 +147,12 @@ Once the audio jack hole in the metal case is widened + deepened, you can attach
 <img src="/images/p4wnsolo-gamepi20-setup%20(28).jpg">
 <img src="/images/p4wnsolo-gamepi20-setup%20(29).jpg">
 
+## Resources / Links
+
+These are extra links for getting the display to work without the RetroPie disk image.
+
+https://github.com/cskau/Python_ST7735
+https://github.com/pimoroni/st7789-python
+https://github.com/freitas-renato/ST7789-RGB
+https://github.com/Infineon/display-tft-st7789v
+https://github.com/darrenliew96/gamepi20_drivers
