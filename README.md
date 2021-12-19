@@ -25,12 +25,14 @@ Important:  The 4 "stock" metal stand-offs provided in this kit seem to cause s
 So I wouldn't expect GamePi20 to boot up when fully assembled - until you replace the stand-offs with something that won't cause a ground / shorting issue (such as M2.5x10mm screws).  As long as you leave the stand-offs out of the picture (and put a strip of electrical tape on the back of the Pi, as mentioned in one of the steps below), GamePi20 should boot up.  Just follow these steps:
 
 (Even if you don't have some screws to replace the stand-offs yet, you can - and SHOULD - still do MOST of the set-up process!  The hardest part of this whole process is getting GamePi20 to work while it's inside the metal case, so you should do that first no matter what.  Then by the time you get your M2.5x10mm screws, you just pop the GamePi20 faceplate & screws in, and you're ready to rock.)
-
+<br />
+The first part of this process is downloading the pre-built GamePi20 RetroPie image.  So here's what that screen looks like:
 <img src="images/p4wnsolo-gamepi20-download-retropie-image.PNG">
 The screenshot above shows the RetroPie disk image you need to download for this tutorial (highlighted in yellow).
-
+Follow the steps below:
+<br />
 <ol>
- 	<li>Start by flashing the RetroPie v4.4 SD Card Image File found here:  <a href="https://www.waveshare.com/wiki/GamePi20">https://www.waveshare.com/wiki/GamePi20</a>
+ 	<li>Start by flashing the RetroPie v4.4 SD Card Image File found here (see screenshot above):  <a href="https://www.waveshare.com/wiki/GamePi20">https://www.waveshare.com/wiki/GamePi20</a>
  	<li>(There's a v4.7 link at the URL above, but it's a dead Google Drive link)</li>
 </li>
  	<li>After you flash the SD card, put it in your GamePi 20</li>
