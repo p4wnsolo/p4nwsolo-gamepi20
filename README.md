@@ -36,9 +36,11 @@ The hardest part of this whole process is getting GamePi20 to work while it's in
 The first part of this process is downloading the pre-built GamePi20 RetroPie image.  
 
 ### Getting Started
-So here's what the screen looks like when you go to download the RetroPie disk image built just for GamePi20 (before you get to Step 1 below): ![](images/p4wnsolo-gamepi20-download-retropie-image.PNG) 
+So here's what the screen looks like when you go to download the RetroPie disk image made just for GamePi20 (before you get to Step 1 below): 
 
-The screenshot above shows the RetroPie disk image you need to download for this tutorial (highlighted in yellow).  Make sure you use that disk image.  It definitely works on Raspberry Pi Zero W.  I haven't tested any of the others yet.
+![The screenshot above shows the RetroPie disk image you need to download for this tutorial (highlighted in yellow).](images/p4wnsolo-gamepi20-download-retropie-image.PNG) 
+
+Just make sure you use that disk image highlighted in yellow (RetroPie 4.4).  It definitely works on Raspberry Pi Zero W.  I haven't tested any of the others yet.
 
 ## How to Build GamePi20 (Step-by-step)
 Follow these steps to build GamePi20 with RetroPie:
