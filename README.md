@@ -1,6 +1,8 @@
 # gamepi20
 Notes and instructions to build GamePi20 w/RetroPie
 
+<img src="/images/p4wnsolo-gamepi20-setup%20(1).jpg">
+
 ## Photos of the Build Process
 I took photos of pretty much every step mentioned below.
 Just look in the /images folder in this repo (p4wnsolo/gamepi20).
@@ -88,7 +90,38 @@ Once the audio jack hole in the metal case is widened + deepened, you can attach
 
 
 ## Images
-<img src="">
-<img src="">
+<img src="/images/p4wnsolo-gamepi20-setup%20(1).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(2).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(3).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(4).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(5).jpg">
 
+<img src="/images/p4wnsolo-gamepi20-setup%20(6).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(7).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(8).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(9).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(10).jpg">
+
+<img src="/images/p4wnsolo-gamepi20-setup%20(11).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(12).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(13).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(14).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(15).jpg">
+
+<img src="/images/p4wnsolo-gamepi20-setup%20(16).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(17).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(18).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(19).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(20).jpg">
+
+<img src="/images/p4wnsolo-gamepi20-setup%20(21).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(22).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(23).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(24).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(25).jpg">
+
+<img src="/images/p4wnsolo-gamepi20-setup%20(26).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(27).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(28).jpg">
+<img src="/images/p4wnsolo-gamepi20-setup%20(29).jpg">
 
