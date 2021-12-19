@@ -1,5 +1,5 @@
 # gamepi20
-Notes and instructions to build GamePi20 w/RetroPie (intermediate)
+Notes and instructions to build GamePi20 w/RetroPie (for intermediate users)
 
 <img src="/images/p4wnsolo-gamepi20-setup%20(15).jpg">
 
@@ -25,11 +25,12 @@ Important:  The 4 "stock" metal stand-offs provided in this kit seem to cause s
 So I wouldn't expect GamePi20 to boot up when fully assembled - until you replace the stand-offs with something that won't cause a ground / shorting issue (such as M2.5x10mm screws).  As long as you leave the stand-offs out of the picture (and put a strip of electrical tape on the back of the Pi, as mentioned in one of the steps below), GamePi20 should boot up.  Just follow these steps:
 
 (Even if you don't have some screws to replace the stand-offs yet, you can - and SHOULD - still do MOST of the set-up process!  The hardest part of this whole process is getting GamePi20 to work while it's inside the metal case, so you should do that first no matter what.  Then by the time you get your M2.5x10mm screws, you just pop the GamePi20 faceplate & screws in, and you're ready to rock.)
+
+<img src="blah.jpg">
+
 <ol>
  	<li>Start by flashing the RetroPie v4.4 SD Card Image File found here:  <a href="https://www.waveshare.com/wiki/GamePi20">https://www.waveshare.com/wiki/GamePi20</a>
-<ol>
- 	<li>There's a v4.7 link at the URL above, but it's a dead Google Drive link</li>
-</ol>
+ 	<li>(There's a v4.7 link at the URL above, but it's a dead Google Drive link)</li>
 </li>
  	<li>After you flash the SD card, put it in your GamePi 20</li>
  	<li>Then attach your Raspberry Pi Zero W(H) to the GamePi20 "unit" using the GPIO pins on your Raspberry Pi Zero WH</li>
