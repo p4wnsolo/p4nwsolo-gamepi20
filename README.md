@@ -1,6 +1,8 @@
 # gamepi20
 Notes and instructions to build GamePi20 w/RetroPie (for intermediate users)
 
+*UPDATE:*  I uploaded a copy of RetroPie-v4.4 disk image file to the <a href="https://github.com/p4wnsolo/p4nwsolo-gamepi20/releases/tag/retropie_gamepi20">Releases</a> tab.  It's a ".7z" file.  So, if Waveshare's Google Drive link goes down, you should be able to download the .7z file from the Releases tab of this repo.
+
 <img src="/images/p4wnsolo-gamepi20-setup%20(15).jpg">
 
 + Plus:  (Totally optional) hardware mod (Bonus - not required - replace Audio Jack with WiFi Antenna - for advanced users only)
