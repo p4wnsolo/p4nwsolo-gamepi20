@@ -46,7 +46,7 @@ Just make sure you use that disk image highlighted in yellow (RetroPie 4.4).  It
 Follow these steps to build GamePi20 with RetroPie:
   
 1.  Start by flashing the RetroPie v4.4 SD Card Image File found here (see screenshot above):  [https://www.waveshare.com/wiki/GamePi20](https://www.waveshare.com/wiki/GamePi20)
-2.  (There's a v4.7 link at the URL above, but it's a dead Google Drive link)
+2.  (Note: There's a RetroPie v4.7 link at the URL above which is presumably better than v4.4, but the link is a dead Google Drive link)
 3.  After you flash the SD card, put it in your GamePi 20
 4.  Then attach your Raspberry Pi Zero W(H) to the GamePi20 "unit" using the GPIO pins on your Raspberry Pi Zero WH
 5.  Now, add a strip of high-heat electrical tape to the back of Raspberry Pi, where the pins are soldered on the back.  There should be roughly 20 or so solder points (2x10) on the back of the Pi that should be insulated.  Otherwise, these points will contact the metal case and cause GamePi20 to shut off right after it tries to boot the OS.
