@@ -1,9 +1,9 @@
 # gamepi20
 Notes and instructions to build GamePi20 w/RetroPie (intermediate)
 
-+ hardware mod (optional Bonus - not required - replace Audio Jack with WiFi Antenna - for advanced users only)
-
 <img src="/images/p4wnsolo-gamepi20-setup%20(15).jpg">
+
++ Plus:  (Totally optional) hardware mod (Bonus - not required - replace Audio Jack with WiFi Antenna - for advanced users only)
 <img src="/images/p4wnsolo-gamepi20-setup%20(29).jpg">
 
 ## Photos of the Build Process
