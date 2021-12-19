@@ -20,13 +20,18 @@ Or see the bottom of this page.
 </ol>
 &nbsp;
 <h2>How to Build GamePi20</h2>
+<br />
 Important:  The 4 "stock" metal stand-offs provided in this kit seem to cause some short/grounding issue, so I <em>had</em> to replace these standoffs with four M2.5x10mm panhead screws (available at a hardware store like ACE in the "mini screws" / computer screws section).  
+<br />
 <br />
 Since these screws are long enough to eliminate the four tiny mini-screws in the kit as well, I went ahead and left the mini screws out of the final build.  
 <br />
+<br />
 The M2.5x10mm panhead screws are the perfect length to eliminate the stand-offs <em>and</em> the mini-screws that screw into them.
 <br />
+<br />
 So I wouldn't expect GamePi20 to boot up when fully assembled - until you replace the stand-offs with something that won't cause a ground / shorting issue (such as M2.5x10mm screws).  
+<br />
 <br />
 As long as you leave the stand-offs out of the picture (and put a strip of electrical tape on the back of the Pi, as mentioned in one of the steps below), GamePi20 should boot up.  
 <br />
