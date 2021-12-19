@@ -1,2 +1,81 @@
 # gamepi20
 Notes and instructions to build GamePi20 w/RetroPie
+
+
+<h2>Tips for Building GamePi20</h2>
+<ol>
+ 	<li>Most importantly, make sure you get the display working BEFORE you put the unit into the case.  Why?  Once everything's assembled, it takes just as long to disassemble it and get the display working.  Trust me - get the display working before you put the unit into the case</li>
+ 	<li>Put high heat electrical tape on the back of Raspberry Pi - where the 20 GPIO pins are soldered (explained below)</li>
+ 	<li>I had to replace the metal stand-offs given in this kit - if you have trouble booting GamePi while inside its own metal case, this is likely the issue (explained below)</li>
+</ol>
+&nbsp;
+<h2>How to Build GamePi20</h2>
+Important:  The 4 "stock" metal stand-offs provided in this kit seem to cause some short/grounding issue, so I <em>had</em> to replace these standoffs with four M2.5x10mm panhead screws (available at a hardware store like ACE in the "mini screws" / computer screws section).  Since these screws are long enough to eliminate the four tiny mini-screws in the kit as well, I went ahead and left the mini screws out of the final build.  The M2.5x10mm panhead screws are the perfect length to eliminate the stand-offs <em>and</em> the mini-screws that screw into them.
+
+So I wouldn't expect GamePi20 to boot up when fully assembled - until you replace the stand-offs with something that won't cause a ground / shorting issue (such as M2.5x10mm screws).  As long as you leave the stand-offs out of the picture (and put a strip of electrical tape on the back of the Pi, as mentioned in one of the steps below), GamePi20 should boot up.  Just follow these steps:
+
+(Even if you don't have some screws to replace the stand-offs yet, you can still do MOST of the set-up process!)
+<ol>
+ 	<li>Start by flashing the RetroPie v4.4 SD Card Image File found here:  <a href="https://www.waveshare.com/wiki/GamePi20">https://www.waveshare.com/wiki/GamePi20</a>
+<ol>
+ 	<li>There's a v4.7 link at the URL above, but it's a dead Google Drive link</li>
+</ol>
+</li>
+ 	<li>After you flash the SD card, put it in your GamePi 20</li>
+ 	<li>Then attach your Raspberry Pi Zero W(H) to the GamePi20 "unit" using the GPIO pins on your Raspberry Pi Zero WH</li>
+ 	<li>Now, add a strip of high-heat electrical tape to the back of Raspberry Pi, where the pins are soldered on the back.  There should be roughly 20 or so solder points (2x10) on the back of the Pi that should be insulated.  Otherwise, these points will contact the metal case and cause GamePi20 to shut off right after it tries to boot the OS.</li>
+ 	<li>Plug GamePi20 into power and switch it ON</li>
+ 	<li>Wait up to 2 minutes for the display to show something (it usually takes about 30 to 60 seconds)</li>
+ 	<li>If Pi shows "RetroPie" and then shows a game system (like Amiga) menu, you're golden - continue to the next step.  If not, try re-flashing the SD card and make sure the GamePi20 unit is OUT of the case (thus eliminating unnecessary electrical ground issues as a possible point of failure)</li>
+ 	<li>Once Pi has successfully booted, shut it down.</li>
+ 	<li>Then do ONLY the very next step of the build process (see next step).  Take it slow - otherwise you build the whole thing at once, it doesn't boot up, you tear it apart 5 or 6 times, etc.  Just do it right the first time, trust me.</li>
+ 	<li>Ok - with your Pi shut down, put the GamePi20 unit into the metal case.  Then power it ON, wait for it to boot up to RetroPie fully, and then process to the next step of the build process.  If RetroPie does <em>not</em> fully boot, then there's probably some part of the GamePi unit touching the metal case.  If that's the situation, then put high heat electrical tape wherever you think it's contacting.  Then put the unit in the case and try to boot up the RetroPie display again.</li>
+ 	<li>Once GamePi20 is booting successfully while placed fully inside the metal case, move on the to the next step.</li>
+ 	<li>Now remove the 2 tiny screws on both sides of the "gamepad" parts of the GamePi20 unit.  In total, there are 4 tiny screws: 2 screws for each gray gamepad "circle".  Attach the gray gamepad "circles" where you removed the 4 tiny screws.  Now the backing for your buttons is firmly in place.</li>
+ 	<li>Now put the buttons on the button pads you just screwed in.  Don't worry about getting them perfect just yet.</li>
+ 	<li>Then put the faceplate on.  Tip:  If one or two of the buttons is out of place when putting the face plate on, you can press the button and "pull" it into the right place.</li>
+ 	<li>Now put the four M2.5x10mm screws into the four screw holes in the face plate.</li>
+ 	<li>Finish screwing them in and power ON your GamePi20.</li>
+ 	<li>If GamePi20 boots up, you should be good to go!  Other than that, there's the L and R button, which should be able to snap in even after GamePi is fully assembled.</li>
+</ol>
+<h2>To get GamePi20 Connected to WiFi:</h2>
+<ul>
+ 	<li>Take the SD card out of GamePi20 (yes - you need to completely take it out of the case and un-build it)</li>
+ 	<li>Put the SD card into a computer</li>
+ 	<li>Follow <a href="https://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-pi-wifi-using-wpa_supplicant-conf/">steps to add "wpa_supplicant.conf" and "ssh" file from Raspberry-Pi-Spy</a></li>
+ 	<li>But start with Step 2 at the link above</li>
+ 	<li>Then put your SD card back in GamePi - but don't put GamePi back in the case til you're sure WiFi is good to go</li>
+ 	<li>Now use Angry IP Scanner on your PC (run as Administrator after installed), use it to scan your network, and then copy "RETROPIE"'s IP address to your SSH app, press Connect, then run the command "ping -c2 google.com" to make sure your GamePi is connected to the Internet!</li>
+</ul>
+<h2>Transfer Games to GamePi20</h2>
+<ul>
+ 	<li>Use the steps above to get GamePi connected to WiFi</li>
+ 	<li>Then use CyberDuck or another SFTP app to connect to your GamePi (on PORT 22!)</li>
+ 	<li>Now just navigate to the "home/games/" folder in CyberDuck on your GamePi</li>
+ 	<li>Then go into a folder like "snes" (for SNES games)</li>
+ 	<li>Finally just drag and drop your SNES roms into the Cyber Duck screen to have it send the ROMs from your PC to your GamePi</li>
+ 	<li>Don't forget to change folders for different game consoles (ex:  "nes" folder for NES games vs SNES games folder)</li>
+</ul>
+How to Replace Audio Jack with WiFi Antenna
+<ul>
+ 	<li>Requirements
+<ul>
+ 	<li>Raspberry Pi Zero WH + WiFi antenna jack soldered onto the RPi</li>
+</ul>
+</li>
+</ul>
+<ol>
+ 	<li>Clip out the audio jack (I used the clippers that came with my soldering kit)</li>
+ 	<li>Use a 1/4" drill bit to 1) widen the audio jack hole that's in the metal case, and 2) make the audio jack hole about 1/4" lower than where it currently is (this is important)</li>
+</ol>
+Once you clip the audio jack out completely and widen + extend the audio jack hole in the metal case, there's enough room for your WiFi Antenna &amp; fitting inside the case.
+
+If you don't make the audio jack hole go lower than where it is "stock", your screen won't be low enough, it will bow, could break, looks terrible, makes the charging port inaccessible, power button inaccessible, and other atrocities.
+
+The fix is to make the audio jack hole about 1/4" deeper than where it currently is.
+
+This way you can move the WiFi antenna fitting to be lower in the metal case than where it would be if you <em>just</em> widened the hole.
+
+&nbsp;
+
+Once the audio jack hole in the metal case is widened + deepened, you can attach the WiFi antenna to the metal case using the nut &amp; washer that should be on it.
