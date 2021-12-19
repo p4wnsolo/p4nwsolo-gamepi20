@@ -26,7 +26,8 @@ So I wouldn't expect GamePi20 to boot up when fully assembled - until you replac
 
 (Even if you don't have some screws to replace the stand-offs yet, you can - and SHOULD - still do MOST of the set-up process!  The hardest part of this whole process is getting GamePi20 to work while it's inside the metal case, so you should do that first no matter what.  Then by the time you get your M2.5x10mm screws, you just pop the GamePi20 faceplate & screws in, and you're ready to rock.)
 
-<img src="blah.jpg">
+<img src="images/p4wnsolo-gamepi20-download-retropie-image.PNG">
+The screenshot above shows the RetroPie disk image you need to download for this tutorial (highlighted in yellow).
 
 <ol>
  	<li>Start by flashing the RetroPie v4.4 SD Card Image File found here:  <a href="https://www.waveshare.com/wiki/GamePi20">https://www.waveshare.com/wiki/GamePi20</a>
