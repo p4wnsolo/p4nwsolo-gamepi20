@@ -20,7 +20,6 @@ Or see the bottom of this page.
 </ol>
 &nbsp;
 <h2>How to Build GamePi20</h2>
-<br />
 Important:  The 4 "stock" metal stand-offs provided in this kit seem to cause some short/grounding issue, so I <em>had</em> to replace these standoffs with four M2.5x10mm panhead screws (available at a hardware store like ACE in the "mini screws" / computer screws section).  
 <br />
 <br />
@@ -35,17 +34,22 @@ So I wouldn't expect GamePi20 to boot up when fully assembled - until you replac
 <br />
 As long as you leave the stand-offs out of the picture (and put a strip of electrical tape on the back of the Pi, as mentioned in one of the steps below), GamePi20 should boot up.  
 <br />
+<br />
 Just follow these steps:
+<br />
 <br />
 (Even if you don't have some screws to replace the stand-offs yet, you can - and SHOULD - still do MOST of the set-up process!  
 <br />
+<br />
 The hardest part of this whole process is getting GamePi20 to work while it's inside the metal case, so you should do that first no matter what.  Then by the time you get your M2.5x10mm screws, you just pop the GamePi20 faceplate & screws in, and you're ready to rock.)
+<br />
 <br />
 The first part of this process is downloading the pre-built GamePi20 RetroPie image.  
 <br />
 So here's what that screen looks like:
 <img src="images/p4wnsolo-gamepi20-download-retropie-image.PNG">
 The screenshot above shows the RetroPie disk image you need to download for this tutorial (highlighted in yellow).
+<br />
 <br />
 Follow the steps below:
 <br />
