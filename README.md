@@ -84,7 +84,7 @@ Follow these steps to build GamePi20 with RetroPie:
 
 *   Use the steps above to get GamePi connected to WiFi
 *   Then use CyberDuck or another SFTP app to connect to your GamePi (on PORT 22!)
-*   Now just navigate to the "home/games/" folder in CyberDuck on your GamePi
+*   Now just navigate to the "RetroPie/roms" folder in CyberDuck on your GamePi
 *   Then go into a folder like "snes" (for SNES games)
 *   Finally just drag and drop your SNES roms into the Cyber Duck screen to have it send the ROMs from your PC to your GamePi
 *   Don't forget to change folders for different game consoles (ex:  "nes" folder for NES games vs SNES games folder)
