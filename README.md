@@ -15,6 +15,7 @@ Just look in the /images folder in this repo (p4wnsolo/gamepi20).
 Or see the bottom of this page.
 
 ## Tips for Building GamePi20
+* For more advanced users:  Use the "Connect GamePi to WiFi" section toward the bottom of this page *before* you flash your SD card (by adding a "wpa_supplicant" text file to the SD card after flashing, so GamePi connects to your WiFi network (this could save you time later)
 * Most importantly, make sure you get the display working BEFORE you put the unit into the case.  Why?  Once everything's assembled, it takes just as long to disassemble it and get the display working.  Trust me - get the display working before you put the unit into the case</li>
 * Put high heat electrical tape on the back of Raspberry Pi - where the 20 GPIO pins are soldered (explained below)</li>
 * I had to replace the metal stand-offs given in this kit - if you have trouble booting GamePi while inside its own metal case, this is likely the issue (explained below).  Solve this issue with $2 in screws and a trip to the hardware store.</li>
