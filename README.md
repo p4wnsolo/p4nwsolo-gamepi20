@@ -1,6 +1,11 @@
 # gamepi20
 Notes and instructions to build GamePi20 w/RetroPie
 
+## Photos of the Build Process
+I took photos of pretty much every step mentioned below.
+Just look in the /images folder in this repo (p4wnsolo/gamepi20).
+
+Or see the bottom of this page.
 
 <h2>Tips for Building GamePi20</h2>
 <ol>
@@ -79,3 +84,11 @@ This way you can move the WiFi antenna fitting to be lower in the metal case tha
 &nbsp;
 
 Once the audio jack hole in the metal case is widened + deepened, you can attach the WiFi antenna to the metal case using the nut &amp; washer that should be on it.
+
+
+
+## Images
+<img src="">
+<img src="">
+
+
