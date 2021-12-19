@@ -22,12 +22,16 @@ Or see the bottom of this page.
 <h2>How to Build GamePi20</h2>
 Important:  The 4 "stock" metal stand-offs provided in this kit seem to cause some short/grounding issue, so I <em>had</em> to replace these standoffs with four M2.5x10mm panhead screws (available at a hardware store like ACE in the "mini screws" / computer screws section).  
 <br />
-Since these screws are long enough to eliminate the four tiny mini-screws in the kit as well, I went ahead and left the mini screws out of the final build.  The M2.5x10mm panhead screws are the perfect length to eliminate the stand-offs <em>and</em> the mini-screws that screw into them.
-
+Since these screws are long enough to eliminate the four tiny mini-screws in the kit as well, I went ahead and left the mini screws out of the final build.  
+<br />
+The M2.5x10mm panhead screws are the perfect length to eliminate the stand-offs <em>and</em> the mini-screws that screw into them.
+<br />
 So I wouldn't expect GamePi20 to boot up when fully assembled - until you replace the stand-offs with something that won't cause a ground / shorting issue (such as M2.5x10mm screws).  
 <br />
-As long as you leave the stand-offs out of the picture (and put a strip of electrical tape on the back of the Pi, as mentioned in one of the steps below), GamePi20 should boot up.  Just follow these steps:
-
+As long as you leave the stand-offs out of the picture (and put a strip of electrical tape on the back of the Pi, as mentioned in one of the steps below), GamePi20 should boot up.  
+<br />
+Just follow these steps:
+<br />
 (Even if you don't have some screws to replace the stand-offs yet, you can - and SHOULD - still do MOST of the set-up process!  
 <br />
 The hardest part of this whole process is getting GamePi20 to work while it's inside the metal case, so you should do that first no matter what.  Then by the time you get your M2.5x10mm screws, you just pop the GamePi20 faceplate & screws in, and you're ready to rock.)
@@ -37,6 +41,7 @@ The first part of this process is downloading the pre-built GamePi20 RetroPie im
 So here's what that screen looks like:
 <img src="images/p4wnsolo-gamepi20-download-retropie-image.PNG">
 The screenshot above shows the RetroPie disk image you need to download for this tutorial (highlighted in yellow).
+<br />
 Follow the steps below:
 <br />
 <ol>
