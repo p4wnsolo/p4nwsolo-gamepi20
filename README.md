@@ -1,6 +1,9 @@
 # gamepi20
 Notes and instructions to build GamePi20 w/RetroPie (for intermediate users)
 
+#### Quick Start
+* Check the Releases tab for Gamepi20 RetroPie v4.4 and [v4.7.1](https://github.com/p4wnsolo/p4nwsolo-gamepi20/releases/tag/retropie_gamepi20_v471) disk image zip files
+
 *UPDATE:*  I uploaded a copy of Waveshare's GamePi20-customized-RetroPie-v4.4 disk image file to the <a href="https://github.com/p4wnsolo/p4nwsolo-gamepi20/releases/tag/retropie_gamepi20">Releases</a> tab.  It's a ".7z" file.  So, if Waveshare's Google Drive link goes down, you should be able to download the .7z file from the Releases tab of this repo.
 
 <img src="/images/p4wnsolo-gamepi20-setup%20(15).jpg">
