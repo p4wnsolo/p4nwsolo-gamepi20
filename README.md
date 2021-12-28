@@ -5,7 +5,7 @@ Notes and instructions to build GamePi20 w/RetroPie (for intermediate users)
 
 * UPDATE:  I tested the RetroPie v4.7.1 image on Raspberry Pi 0 W and 0 2.  It works on both.  This image file also works on Raspberry Pi Zero 2 + 1.3" ST7789 LCD HAT.
 
-* Check the [Releases](https://github.com/p4wnsolo/p4nwsolo-gamepi20/releases) tab for Gamepi20 RetroPie [v4.4](https://github.com/p4wnsolo/p4nwsolo-gamepi20/releases/tag/retropie_gamepi20) and [v4.7.1](https://github.com/p4wnsolo/p4nwsolo-gamepi20/releases/tag/retropie_gamepi20_v471) disk image zip files
+* Check the [Releases](https://github.com/p4wnsolo/p4nwsolo-gamepi20/releases) tab for Gamepi20 RetroPie [v4.7.1 (recommended)](https://github.com/p4wnsolo/p4nwsolo-gamepi20/releases/tag/retropie_gamepi20_v471) and [v4.4](https://github.com/p4wnsolo/p4nwsolo-gamepi20/releases/tag/retropie_gamepi20) disk image zip files.
 
 *UPDATE:*  I uploaded a copy of Waveshare's GamePi20-customized-RetroPie-v4.4 disk image file to the <a href="https://github.com/p4wnsolo/p4nwsolo-gamepi20/releases/tag/retropie_gamepi20">Releases</a> tab.  It's a ".7z" file.  So, if Waveshare's Google Drive link goes down, you should be able to download the .7z file from the Releases tab of this repo.
 
