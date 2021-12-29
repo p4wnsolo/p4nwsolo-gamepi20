@@ -172,7 +172,7 @@ https://github.com/darrenliew96/gamepi20_drivers
 * Boot up and connect via SSH
 * Do the steps in the section `5）Install driver for josytic` at [Waveshare wiki](https://www.waveshare.com/wiki/GamePi20)
   * Note: This will get the buttons on the gamepad to work - but they won't be mapped properly (try the L and R buttons for "GO" / "A" button)
-* Then run `apt-get update --allow-releaseinfo-change` (from [https://forum.proxmox.com/threads/apt-get-update-error-changed-its-suite-value-from-stable-to-oldstable.94726/post-411789](Proxmox forum))
+* Then run `apt-get update --allow-releaseinfo-change` (from [Proxmox forum](https://forum.proxmox.com/threads/apt-get-update-error-changed-its-suite-value-from-stable-to-oldstable.94726/post-411789))
 * Now run `sudo apt-get update`
 * Then run `sudo apt-get upgrade`
   * You should see `Unpacking raspberrypi-kernel-headers (1:1.20211201~buster-1) over (1.20201022-1)`
