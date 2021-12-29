@@ -167,12 +167,12 @@ https://github.com/darrenliew96/gamepi20_drivers
 ## Notes for RPi 0 2
 
 * Write the image to SD card
-* Add ssh file & wpa_supplicant.conf
+* Add [`ssh` file & `wpa_supplicant.conf`](https://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-pi-wifi-using-wpa_supplicant-conf/)
 * Add a WiFi dongle
 * Boot up and connect via SSH
-* Do the steps in "5）Install driver for josytic" at [Waveshare wiki](https://www.waveshare.com/wiki/GamePi20)
+* Do the steps in the section `5）Install driver for josytic` at [Waveshare wiki](https://www.waveshare.com/wiki/GamePi20)
   * Note: This will get the buttons on the gamepad to work - but they won't be mapped properly (try the L and R buttons for "GO" / "A" button)
-* Then run "apt-get update --allow-releaseinfo-change" (from [https://forum.proxmox.com/threads/apt-get-update-error-changed-its-suite-value-from-stable-to-oldstable.94726/post-411789](Proxmox forum))
-* Now run "sudo apt-get update"
-* Then run "sudo apt-get upgrade"
-* 
+* Then run `apt-get update --allow-releaseinfo-change` (from [https://forum.proxmox.com/threads/apt-get-update-error-changed-its-suite-value-from-stable-to-oldstable.94726/post-411789](Proxmox forum))
+* Now run `sudo apt-get update`
+* Then run `sudo apt-get upgrade`
+  * You should see `Unpacking raspberrypi-kernel-headers (1:1.20211201~buster-1) over (1.20201022-1)`
