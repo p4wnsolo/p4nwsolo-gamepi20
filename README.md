@@ -185,7 +185,9 @@ https://github.com/darrenliew96/gamepi20_drivers
 
 1.  Write WEEKLY retropie image to SD card
 2.  Follw Waveshare steps for [Method 2: Install Driver](https://www.waveshare.com/wiki/GamePi20)
-3.  Run sudo raspi-config
+3.  When you see the "gpu_split" error, run sudo raspi-config
 4.  Go to Performance
 5.  GPU Memory
 6.  128
+7.  Reboot
+8.  Done!
