@@ -175,4 +175,6 @@ https://github.com/darrenliew96/gamepi20_drivers
 * Then run `apt-get update --allow-releaseinfo-change` (from [Proxmox forum](https://forum.proxmox.com/threads/apt-get-update-error-changed-its-suite-value-from-stable-to-oldstable.94726/post-411789))
 * Now run `sudo apt-get update`
 * Then run `sudo apt-get upgrade`
-  * You should see `Unpacking raspberrypi-kernel-headers (1:1.20211201~buster-1) over (1.20201022-1)`
+  * You should see `Preparing to unpack .../136-raspberrypi-kernel-headers_1%3a1.20211201~buster-1_a`
+  * ..and `Unpacking raspberrypi-kernel-headers (1:1.20211201~buster-1) over (1.20201022-1)`
+  
