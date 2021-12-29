@@ -179,3 +179,13 @@ https://github.com/darrenliew96/gamepi20_drivers
   * ..and `Unpacking raspberrypi-kernel-headers (1:1.20211201~buster-1) over (1.20201022-1)`
 * Then run [`RetroPie-Setup`](https://github.com/RetroPie/RetroPie-Setup/)
   * Then select `Basic Install` from the menu  
+
+
+## More Notes
+
+1.  Write WEEKLY retropie image to SD card
+2.  Follw Waveshare steps for [Method 2: Install Driver](https://www.waveshare.com/wiki/GamePi20)
+3.  Run sudo raspi-config
+4.  Go to Performance
+5.  GPU Memory
+6.  128
