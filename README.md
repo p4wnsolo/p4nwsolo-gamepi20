@@ -177,4 +177,5 @@ https://github.com/darrenliew96/gamepi20_drivers
 * Then run `sudo apt-get upgrade`
   * You should see `Preparing to unpack .../136-raspberrypi-kernel-headers_1%3a1.20211201~buster-1_a`
   * ..and `Unpacking raspberrypi-kernel-headers (1:1.20211201~buster-1) over (1.20201022-1)`
-  
+* Then run [`RetroPie-Setup`](https://github.com/RetroPie/RetroPie-Setup/)
+  * Then select `Basic Install` from the menu  
